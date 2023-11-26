@@ -4,6 +4,8 @@ body {
 
 #siteheader {
     margin: 0px;
+    background-image: url(img/blueprint.png);
+    background-repeat: repeat-x;
     background-color: rgb(84, 84, 240);
     height: 100px;
     width: 100%;
