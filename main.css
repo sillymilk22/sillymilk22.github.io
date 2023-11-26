@@ -1,51 +1,9 @@
-body {
-    margin: 0px;
-}
-
 #siteheader {
-    margin: 0px;
     background-color: rgb(84, 84, 240);
     height: 100px;
     width: 100%;
     overflow: hidden;
-    border: 2px solid black;
 }
-    #siteheaderimg {
-        height: 100%;
-        width: 100px;
-        float: left;
-    }
-    #siteheadertxt {
-        height: 100%;
-        width: fit-content;
-        float: left;
-    }
-    #sitenavbar {
-        background-color: aquamarine;
-        margin: 0px;
-        padding: 0px;
-        height: 25px;
-        width: 100%;
-        border: 2px solid black;
-
-    }
-    .navbutton {
-        padding: 0px;
-        float: left;
-        width: 100px;
-        height: 100%;
-        border-style: solid;
-        border-width: 0px;
-        border-left-width: 2px;
-
-        
-    }
-    .navbutton > p {
-        margin: auto;
-        width: 50%;
-        padding: 5px;
-    }
-
 #siteheaderimg {
     height: 100%;
     width: 100px;
