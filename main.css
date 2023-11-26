@@ -4,13 +4,13 @@
     width: 100%;
     overflow: hidden;
 }
-    #siteheaderimg {
-        height: 100%;
-        width: 100px;
-        float: left;
-    }
-    #siteheadertxt {
-        height: 100%;
-        width: fit-content;
-        float: left;
-    }
+#siteheaderimg {
+    height: 100%;
+    width: 100px;
+    float: left;
+}
+#siteheadertxt {
+    height: 100%;
+    width: fit-content;
+    float: left;
+}
