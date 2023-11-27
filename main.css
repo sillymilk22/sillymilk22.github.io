@@ -2,9 +2,14 @@ body {
     margin: 0px;
 }
 
+@font-face {
+    font-family: supercorn;
+    src: url(SuperCorn.ttf);
+}
+
 #siteheader {
     margin: 0px;
-    background-image: url(img/blueprint.png);
+    background-image: url(img/blueprint.jpg);
     background-repeat: repeat-x;
     background-color: rgb(84, 84, 240);
     height: 100px;
@@ -21,6 +26,17 @@ body {
         height: 100%;
         width: fit-content;
         float: left;
+    }
+    #title {
+        font-size: 65px;
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin: 0px;
+        color: rgb(0, 0, 0);
+        font-family: supercorn;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
     }
     #sitenavbar {
         background-color: aquamarine;
