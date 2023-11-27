@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @font-face {
@@ -30,6 +31,7 @@ body {
     #title {
         font-size: 65px;
         padding: 10px;
+        margin-left: 20px;
         padding-left: 25px;
         padding-right: 25px;
         margin: 0px;
@@ -37,6 +39,7 @@ body {
         font-family: supercorn;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: white;
+        
     }
     #sitenavbar {
         background-color: aquamarine;
@@ -64,7 +67,59 @@ body {
         padding: 5px;
     }
 
-#siteheaderimg {
+    #siteheaderimg {
+        height: 100%;
+        width: 100px;
+    }
+
+
+#infomation {
+    margin: 20px;
+}
+
+.softwarecont{
+    background-color: aqua;
+    height: 120px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.softwarecontimg{
+    float:left;
+    background-color: brown;
     height: 100%;
-    width: 100px;
+    width: fit-content;
+}
+
+.button{
+    transition-duration: 0.4s;
+    border-style: outset;
+    color: white;
+    padding: 11px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+  
+.button:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+}
+
+#downloadbutton {
+    background-color: green;
+}
+
+#downloadbutton:hover {
+    background-color: #04AA6D;
+}
+
+#repobutton {
+    background-color: orange;
+}
+
+#repobutton:hover {
+    background-color: rgb(255, 194, 81);
 }
