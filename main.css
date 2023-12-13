@@ -31,8 +31,6 @@ body {
     margin: auto;
     display: flex;
     justify-content: center;
-    
-
 }
 
 a {
@@ -46,48 +44,4 @@ a:visited {
 
 a:hover {
     color: orange
-}
-
-
-
-.softwarecont{
-    background-color: aqua;
-    height: 120px;
-    width: 600px;
-    border: 2px solid black;
-    overflow: hidden;
-}
-
-.softwarecontimg{
-    float:left;
-    background-color: brown;
-    height: 100%;
-    width: fit-content;
-}
-
-.button{
-    transition-duration: 0.4s;
-    height: 36px;
-    width: 175px;
-    border: 2px white solid;
-    color: white;
-    padding-top: 20px;
-    background-color: gray;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-}
-
-.button:visited{
-    color: white;
-}
-
-  
-.button:hover {
-    background-color: #04AA6D; /* Green */
-    color: white;
-}
-#button:hover {
-    background-color: #04AA6D;
 }
