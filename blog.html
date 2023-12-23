@@ -6,6 +6,7 @@
         <style>
             img {
                 width: 600px;
+                
             }
         </style>
     </head>
@@ -14,7 +15,7 @@
 
     <body>
     <div id="main">
-
+        
         
         <h1>The Silly Blog</h1>
         <p>Regular Blog Updates About the website are hosted here!</p>
@@ -28,8 +29,108 @@
             <p style="margin: 2px; margin-left: 5px; margin-right: 5px; color: orangered;">•</p>
             <a href="https://github.com/sillymilk22/sillymilk22.github.io">Github</a>
         </div>
+        <hr>
+            <marquee><b>!!!</b> Major blog update with all the stuff from the past week. Update Fueled by <a href="https://www.youtube.com/watch?v=l5YbGhxHH6M" target="_blank">Eternal Nausea</a> 
+            and <a href="https://www.youtube.com/watch?v=BZFv53IrvSg" target="_blank">Thoughts and Prayers</a> by <a href="https://en.wikipedia.org/wiki/Black_Dresses" target="_blank">Black Dresses</a> <b>!!!</b>
+            </marquee>
+        <hr>
+        <h1>PSX effects and tricks</h1>
+        <p>22/12/2023 - 23/12/2023</p>
+        <p>
+            Building this website so far I have been aiming for a sort of old net style. Decorating the website with old hardware and pixelated graphics.
+            This silly should reflect that, and so far that is what I have done using low poly modeling and pixelated unfiltered textures. However there is still
+            more I can do.
+            In blender it is possible to replicate old graphics using a few tricks. I'm no expert on old graphics, Nor am I old enough to even have experenced those
+            retro games and consoles but I think I know enough to attempt to replicate old graphics.
+            <br><br>
+            <b>Disabiling anti-aliasing</b> was one trick used. I learned how to do this from this <a href="https://youtu.be/kTleHWZkUaM" target="_blank">youtube tutoral</a>
+            This disables the computer from attempting to make edges smooth by bluring them. Which in old consoles, was simply not possible.
+            <br><br><b>Pixelating the rendering</b> was another trick I used which I got from this <a href="https://youtu.be/Gf5KP5ugLrA?t=197" target="_blank">youtube tutoral</a>. This is done
+            by downscaling the resolution, Pixelating it then upscailing the resolution back to normal
+            <br><br>
+            <b>Vertex Snapping</b> is another trick I used, This one is quite complicated and I can't really describe it in words. But I got it from this <a href="https://youtu.be/zre96zn0t80" target="_blank">youtube tutoral</a>
+            <br>This one is alot more experimental and I am unsure as to if i will keep it in the final product. Its also somewhat hard to notice with the pixelating of the graphics.
+        </p>
+        <br>
+        <p>Pixelated Rendering Example</p>
+        <img src="img/Blog/23.12.2023/Effects/downscaling.png">
+        <a href="img/Blog/23.12.2023/Effects/downscaling.png" target="_blank">Open image in new tab!</a>
+        <p>Vertex Snapping exadurated example</p>
+        <div style="width: 100%; display: flex;">
+            <video width="50%" autoplay loop muted>
+                <source src="img/Blog/23.12.2023/Effects/cube_spin.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <video width="50%" autoplay loop muted>
+                <source src="img/Blog/23.12.2023/Effects/silly_spin.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+        </div>
+        <div id="linkcontainer">
+            <a href="img/Blog/23.12.2023/Effects/cube_spin.mp4" target="_blank" style="font-size: 14px;">Open Cube Spin !</a>
+            <p style="margin: 2px; margin-left: 8px; margin-right: 5px; color: orangered;">•</p>
+            <a href="img/Blog/23.12.2023/Effects/silly_spin.mp4" target="_blank" style="font-size: 14px;">Open Silly Spin !</a>
+
+        </div>
+        
+        <hr>
+        <h1>Texturing</h1>
+        <p>20/12/2023 - 23/12/2023</p>
+        <p>
+            Following each object that had been UV mapped I then added some texture. This was done in both <b>Clip sutdio paint</b> and <b>Blenders texture editor</b>.
+            Theres not much too texture, Its just taking what I have done in the 2D drawings of the silly and putting it on the model. One notable thing I that took
+            a while to figure out was disabling anti-aliasing to give a pixel look, This can be seen in <b>The Silly 3D Model: Day 3</b>.
+            <br><br>
+            In <a href="https://youtu.be/7s7uSx18DUc?t=68" target="_blank">This youtube tutoral</a> Garbaj said a trick he uses if bluring out the pixelated texture, This is somthing
+            I could experiment with in the finishing touches of the model to make the textures look nicer. I won't use it if starts ruining the style I'm going for however. 
+        </p>
+        <br>
+        <p>Basic Textures so far</p>
+        <img src="img/Blog/23.12.2023/Base Texturing/Base Textures.png" style="image-rendering: pixelated;"></img>
+        <a href="img/Blog/23.12.2023/Base Texturing/Base Textures.png" target="_blank">Open image in new tab!</a>
 
         <hr>
+        <h1>UV Mapping</h1>
+        <p>15/12/2023 - 21/12/2023 (i think)</p>
+        <p>
+            This was the first time I have had to UV map Properly. The body was simple due to the simple geometry, I was able to just use blenders <b>Project from View</b> feature
+            For most mapping, With a view configuring.
+            <br><b>However</b> when it came to the arms it was much more difficult, I think it achualy took me days to make that UV map because I had to learn how to Properly
+            make a UV map and not just project from view. I used pixel texture featured in this <a href="https://youtu.be/RQVAUaSUP-k?t=462" target="_blank">Youtube tutoral</a>
+            and pretty much ignored the rest :p. This was pretty dumb as there are a few tools i think would have been useful in that tutoral. In another 
+            <a href="https://youtu.be/7JUNlj6mR0U?t=333" target="_blank">Youtube tutoral</a> I learned that when unwrapping a UV you need to think of it like cutting parts of a 
+            3D object, Like a can so it can lay down flat. You can do the cutting using "Seams", From this point onwards I started using seams to sperate complex parts of my objects.
+            I also learnt from a friend of mine Who for privacy reasons im just gonna name miggle, How to stich textures toghether, Allowing me to stick my corrected UV "Quads" toghether. 
+            <br><br>
+            For the arms and the hair this took a rediculous ammount of time and im sure there is a much more efficent way, But the manual adjusting seemed to just work.
+            <br>
+            Somewhere down the line I learned how to snap the UV Verts to a pixel perfect grid, I don't remember where I learned this but it was very helpful. 
+            This <a href="https://youtu.be/RQVAUaSUP-k?t=864" target="_blank">Youtube tutoral again</a> pretty much coveres how to do it tho.
+            <br><br>
+        </p>
+
+        <p>Example of me correcting a UV!</p>
+        <img src="img/Blog/23.12.2023/UV Editing/Example of UV editing.gif"></img>
+        <a href="img/Blog/23.12.2023/UV Editing/Example of UV editing.gif" target="_blank">Open image in new tab!</a>
+        <br>
+        <p>Final UV maps for hair and arms</p>
+        <img src="img/Blog/23.12.2023/UV Editing/UV Maps.png" style="image-rendering: pixelated;"></img>
+        <a href="img/Blog/23.12.2023/UV Editing/UV Maps.png" target="_blank">Open image in new tab!</a>
+        <br>
+
+        <hr>
+        <h1>The Silly 3D Model: Day ??</h1>
+        <p>23/12/2023 - 10:40am</p>
+
+        <p>
+            <b>Whoops!</b><br>
+            Yeah somewhere down the line i stopped recording my updates, that just happens sometimes where my motivation locks up, Maby I over worked myself.
+            I still worked on the model while I was gone however so I will try to document in the next coming blog posts about everything I have done.
+        </p>
+        <br>
+        
+        <hr>
+
         <h1>Gallary!</h1>
         <p>15/12/2023 - 4:30pm</p>
         <p>
